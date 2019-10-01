@@ -1,41 +1,41 @@
 variable "bucket" {
+  description = "S3 bucket name"
   type        = string
   default     = ""
-  description = "S3 bucket name"
 }
 
 variable "acl" {
+  description = "Default private ACL"
   type        = string
   default     = "private"
-  description = "Default private ACL"
 }
 
 variable "policy" {
+  description = "Default policy"
   type        = string
   default     = "private"
-  description = "Default private ACL"
 }
 
 variable "tags" {
+  description = "Tags for S3 bucket"
   type        = map
   default     = {}
-  description = "Tags for S3 bucket"
 }
 
 variable "force_destroy" {
+  description = "All object should be deleted"
   type        = bool
   default     = false
-  description = "All object should be deleted"
 }
 
 variable "region" {
+  description = "AWS region for S3 bucket"
   type        = string
   default     = ""
-  description = "AWS region for S3 bucket"
 }
 
 variable "versioning" {
+  description = "Versioning on the s3 bucket"
   type        = bool
   default     = true
-  description = "Versioning on the s3 bucket"
 }
