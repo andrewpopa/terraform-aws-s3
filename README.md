@@ -52,3 +52,4 @@ module "ptfe-es" {
 | ------------- | ------------- | ------------- |
 | s3_bucket_id | string | Bucket name |
 | s3_bucket_arn | string | ARN for the bucket |
+| s3_bucket_region | string | Bucket region |
