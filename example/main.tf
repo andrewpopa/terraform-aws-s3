@@ -5,6 +5,5 @@ module "ptfe-es" {
     Name = "ptfe-external-services"
   }
   force_destroy = true
-  region        = "eu-central-1"
   versioning    = true
 }
